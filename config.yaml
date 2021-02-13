@@ -1,21 +1,21 @@
-apiToken: 123456789:ABCDEFGHIJKLMONPQRSTUVWXYZ # replace by your own
-chatId: -1234567890 # replace by your own
+apiToken: 1654138997:AAGn6RGea9oU6brfwUCcUvXrQJZRqnJVIOs # replace by your own
+chatId: -1001331374604 # replace by your own
 eventFilePath: event.yaml # info about current event is stored in this file
 maxParticipants: 0 # set to zero for unlimited participants
 
-scheduleCommand: schedule
-editCommand: schedule
-goCommand: go
-quitCommand: quit
-cancelCommand: cancel
+scheduleCommand: Создать встречу
+editCommand: Иземнить встречу
+goCommand: Вступить во встречу
+quitCommand: Выйти из встречи
+cancelCommand: Отменить встречу
 
 waitlistedHeader: Wait list
 
-scheduledMessage: Event scheduled!
-cancelledMessage: Event cancelled!
-editedMessage: Event edited!
-notAdminMessage: You are not an admin!
-noEventScheduledMessage: No event scheduled!!
-noEventDescriptionMessage: Provide the event's description!
-alreadyInEventMessage: is already in the event!
-notInEventMessage: is not in the event!
+scheduledMessage: Встреча создана!
+cancelledMessage: Встреча отменена!
+editedMessage: Встреча отредактирована!
+notAdminMessage: Вы не админ!
+noEventScheduledMessage: Встреча не назначена!
+noEventDescriptionMessage: Пожалуйста, опишите встречу!
+alreadyInEventMessage: Уже во встрече!
+notInEventMessage: Еще не во встрече!
